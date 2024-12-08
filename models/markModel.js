@@ -5,6 +5,6 @@ const marksSchema = new mongoose.Schema({
     marks: { type: Number, required: true },
   });
   
-const mark = mongoose.model('Marks', marksSchema);
+const Marks = mongoose.model('Marks', marksSchema);
 
-module.exports = mark
+module.exports = Marks;
