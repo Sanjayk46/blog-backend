@@ -3,8 +3,8 @@ const dotenv = require('dotenv')
 const cors = require("cors");
 const cookieParser = require('cookie-parser');
 const {connectionDB} = require('./database/db.js');
-const userRoutes = require('./routes/userRoutes');
-const blogRoutes = require('./routes/blogRoutes');
+const userRoutes = require('./Routes/userRoutes');
+const blogRoutes = require('./Routes/blogRoutes');
 const { notFound, errorHandler } = require('./middleware/ErrorMiddleware')
 
 dotenv.config();
