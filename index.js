@@ -7,7 +7,7 @@ const {connectionDB} = require('./database/db.js');
 // const blogRoutes = require('./Routes/blogRoutes');
 const studentRoutes = require('./Routes/student');
 const markRoutes = require('./Routes/mark');
-const { notFound, errorHandler } = require('./middleware/errorMiddleware.js');
+const { notFound, errorHandler } = require('./middleware/ErrorMiddleware');
 
 dotenv.config();
 connectionDB();
